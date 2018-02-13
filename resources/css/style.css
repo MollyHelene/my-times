@@ -1,0 +1,21 @@
+
+
+
+header {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-family: Verdana;
+  font-size: 14px;
+  fontweight: bold;
+  color: MediumAquamarine;
+}
+
+.logo {
+  display: flex;
+}
+
+nav {
+  display: block;
+  display: inline-flex;
+}

@@ -3,8 +3,7 @@
 
 header {
   display: flex;
-  justify-content:center;
-  align-items: center;
+  justify-content: space-between;
   font-family: Verdana;
   font-size: 14px;
   fontweight: bold;
@@ -13,6 +12,14 @@ header {
 
 .logo {
   display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.my-times {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav {

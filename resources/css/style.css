@@ -80,18 +80,31 @@ h2{
 
 /* -- Large Column Section -- */
 .column-large {
-  display: flex
-  text-direction: column;
+  display: flex;
+  flex-direction: column;
   width: 630px;
   border: 1px solid black;
   margin: 10px;
 }
+.lead-story {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
 .image-content {
+  display: flex;
+  flex-direction: column;
   border: 1px solid black;
 }
 .narrative {
+  display: flex;
+  flex-direction: column;
   border: 1px solid black;
-
+}
+.text-content {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
 }
 
 /* -- Medium Column Section -- */

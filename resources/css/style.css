@@ -10,7 +10,6 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  color: MediumAquamarine;
 }
 
 .logo {
@@ -18,6 +17,10 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction: row;
+  width: 68%;
+  border: 1px solid black;
+  color: MediumAquamarine;
+  margin; 30px;
 }
 
 .my-times {
@@ -29,8 +32,11 @@
 .nav {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  align-items: center
+  overflow: scroll;
+  width: 32%;
   padding-right: 40px;
+  padding-bottom: 10px;
   color: black;
 }
 
@@ -54,25 +60,22 @@
   color: black;
 }
 
-.content {
-  border: 1px solid black;
+.content-container {
   display: flex;
+  width: 100%;
 }
 
 .column-large {
   display: flex;
   width: 630px;
-  border: 1px solid black;
 }
 
 .column-medium {
   display: flex;
   width: 300px;
-  border: 1px solid black;
 }
 
 .column-small {
   display: flex;
   width: 240px;
-  border: 1px solid black;
 }

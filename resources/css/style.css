@@ -23,7 +23,6 @@
   flex-direction: row;
   width: 68%;
   border: 1px solid black;
-  color: MediumAquamarine;
   margin; 30px;
 }
 
@@ -31,12 +30,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: MediumAquamarine;
 }
 
 .nav {
   display: flex;
   justify-content: flex-end;
-  align-items: center
+  align-items: center;
   overflow: scroll;
   width: 32%;
   padding-right: 40px;
@@ -46,22 +46,18 @@
 
 .nav-world {
   display: inline-flex;
-  color: black;
 }
 
 .nav-us {
   display: inline-flex;
-  color: black;
 }
 
 .nav-tech {
   display: inline-flex;
-  color: black;
 }
 
 .nav-science {
   display: inline-flex;
-  color: black;
 }
 
 /* -- CONTENT SECTION -- */
@@ -73,12 +69,21 @@
   border: 1px solid black;
 }
 h1 {
+  display: flex;
   font-size: 40px;
   font-weight: bold;
 }
 h2{
-  /* font-size: 30px; */
+  display: flex;
+  font-family: Georgia;
   font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+h3 {
+  display: flex;
+  font-size: 16px;
+  text-align: center;
 }
 
 /* -- Large Column Section -- */
@@ -94,19 +99,42 @@ h2{
   flex-direction: column;
   border: 1px solid black;
 }
-.image-content {
+.lead-image-content {
   display: flex;
-  flex-direction: column;
+  background-image: url(../images/img-story-main.png);
+  text-align: center;
+  color: white;
   border: 1px solid black;
 }
 .narrative {
   display: flex;
   flex-direction: column;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
   border: 1px solid black;
 }
 .text-content {
   display: flex;
   flex-direction: column;
+  border: 1px solid black;
+}
+.spin-image-content {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/img-story-2.png);
+  border: 1px solid black;
+}
+.erase-image-content {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/img-story-3.png);
+  border: 1px solid black;
+}
+.cats-image-content {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/img-story-1.png);
   border: 1px solid black;
 }
 

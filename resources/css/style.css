@@ -1,3 +1,4 @@
+/* -- HEADER SECTION-- */
 .header {
   display: flex;
   justify-content: space-between;
@@ -6,6 +7,7 @@
   z-index: 1;
   width: 100%;
   height: 80px;
+  top: 0px;
   border-bottom: 1px solid black;
   font-family: Verdana;
   font-size: 14px;
@@ -60,22 +62,50 @@
   color: black;
 }
 
+/* -- CONTENT SECTION -- */
 .content-container {
   display: flex;
   width: 100%;
+  margin-top: 100px;
+  border: 1px solid black;
+}
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+h2{
+  font-size: 30px;
+  font-weight: bold;
 }
 
+/* -- Large Column Section -- */
 .column-large {
-  display: flex;
+  display: flex
+  text-direction: column;
   width: 630px;
+  border: 1px solid black;
+  margin: 10px;
+}
+.image-content {
+  border: 1px solid black;
+}
+.narrative {
+  border: 1px solid black;
+
 }
 
+/* -- Medium Column Section -- */
 .column-medium {
   display: flex;
   width: 300px;
+  border: 1px solid black;
+  margin: 10px;
 }
 
+/* -- Small Column Section -- */
 .column-small {
   display: flex;
   width: 240px;
+  border: 1px solid black;
+  margin: 10px;
 }
